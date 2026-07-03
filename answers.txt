@@ -1,0 +1,1 @@
+Q1. When you type a URL, your browser asks Domain Name System(DNS)toturn the domain(google.com) into an IP address.The browser then sends a request to that IP
