@@ -9,4 +9,11 @@ Q8. Frontend is what the user sees and interacts with. Backend is the server-sid
 
 PART 2
 [Client] -->[DNS (Resolves domain to IP)] -->[Firewall (Filters security)]--> [Load Balancer (Routes traffic)]-->[web server (Handles HTTP)]-->[Application Server (Logic & processing)] -->[Database (Data storage)] 
+
+
+PART 3
+Q9. Backend developers need the CLI for sever management, automation, and interacting with remote systems where a graphical interface(GUI) is  not available.
+Q10. An absolute path starts from the roots(e.g home/user/notes.txt). A relative path starts from your current location.(e.g ./notes.txt)
+Q11. You could explain that the CLI is faster, allow for powerful automation via scripts,and is the standard for managing severs remotely.
+Q12. ~ represents your home directory. $ is the standard command prompt symbol indicating the terminal is ready for input.
  
