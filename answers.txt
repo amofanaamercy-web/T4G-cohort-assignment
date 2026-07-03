@@ -1,8 +1,12 @@
-When you type a URL, your browser asks Domain Name System(DNS)to turn the domain(google.com) into an IP address.The browser then sends a request to that IP
-A client is the machine/browser requesting information for example your laptop. A server is the machine waiting to provide that information (e.g, the computer hosting the website.
-DNS acts like a phonebook for the internet. We need it because computers communicate via IP addresses(numbers) while human prefer domain names(words)
-A firewall filters traffic to block malicious threats. A loader balancer distributes incoming traffic across multiple servers to ensure none are overwhelmed.
-A web sever handles HTTP requuests and static content(HTML/CSS). An application sever runs the business logic and generates dynamic content.Backend developers work more with application servers because that is where the care logic lives.
-The client never talks to the database directily to prevent security breaches, such as unauthorized data access or SQL injection. The application server acts as a gatekeeper.
-A university department page is often static because the information rarely changes.An MTN MoMo account page is dynamic because it dislays real-time, user-specific account data.
-Frontend is what the user sees and interacts with. Backend is the server-side logic, database interaction, and API management. The backend would handle login authentication because it securely checks passwords against the database.
+Q1. When you type a URL, your browser asks Domain Name System(DNS)to turn the domain(google.com) into an IP address.The browser then sends a request to that IP
+Q2. A client is the machine/browser requesting information for example your laptop. A server is the machine waiting to provide that information (e.g, the computer hosting the website.
+Q3. DNS acts like a phonebook for the internet. We need it because computers communicate via IP addresses(numbers) while human prefer domain names(words)
+Q4. A firewall filters traffic to block malicious threats. A loader balancer distributes incoming traffic across multiple servers to ensure none are overwhelmed.
+Q5. A web sever handles HTTP requuests and static content(HTML/CSS). An application sever runs the business logic and generates dynamic content.Backend developers work more with application servers because that is where the care logic lives.
+Q6. The client never talks to the database directily to prevent security breaches, such as unauthorized data access or SQL injection. The application server acts as a gatekeeper.
+Q7. A university department page is often static because the information rarely changes.An MTN MoMo account page is dynamic because it dislays real-time, user-specific account data.
+Q8. Frontend is what the user sees and interacts with. Backend is the server-side logic, database interaction, and API management. The backend would handle login authentication because it securely checks passwords against the database
+
+PART 2
+[Client] -->[DNS (Resolves domain to IP)] -->[Firewall (Filters security)]--> [Load Balancer (Routes traffic)]-->[web server (Handles HTTP)]-->[Application Server (Logic & processing)] -->[Database (Data storage)] 
+ 
